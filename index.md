@@ -1,46 +1,26 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 欢迎来到这里
+tagline: 二价氢的小站 ~Github Pages~
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## 建立这个站点的目的？
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+如果，我说如果的话，互联网中断，我该如何保存我在互联网上的所有回忆？
 
-## Update Author Attributes
+所以我选择了静态页面，它能很好的保留我想需要的一切。
 
-In `_config.yml` remember to specify your own data:
+其实，这样不是更有Geek风范么233
+
+不需要动态的东西的话，建站成本也会降很多的吧（笑～）
     
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+## 友情连接
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+[Subjam酱](http://hi.baidu.com/rxpaxuhnkpfilsr)
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+[ZRY007的博客](http://www.swzry.com/)
 
-    $ rm -rf _posts/core-samples
+[二价氢吧](http://tieba.baidu.com/f?kw=%B6%FE%BC%DB%C7%E2)
 
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
+[萝卜的博客](http://www.pauby89.com/)
 
