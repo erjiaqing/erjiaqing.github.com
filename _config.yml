@@ -4,6 +4,7 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
+markdown: kramdown
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -14,8 +15,6 @@ author :
   name : 二价氢
   email : ejqmain@gmail.com
   github : erjiaqing
-  twitter : none
-  feedburner : none
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
