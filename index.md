@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 欢迎来到这里
-tagline: 二价氢的小站 ~Github Pages~
+title: 二价氢的小站
+tagline: ~Github Pages~
 ---
 
 ## 建立这个站点的目的？
