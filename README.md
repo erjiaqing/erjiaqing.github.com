@@ -1,3 +1,21 @@
+# 神犇你好，为什么要对个人的GitHub Pages感兴趣呢？
+
+**常用链接**
+
+[另一个博客](http://eejjqq.com/)
+
+**友情链接**
+
+[Subjam酱](http://hi.baidu.com/rxpaxuhnkpfilsr)
+
+[ZRY007的博客](http://www.swzry.com/)
+
+[二价氢吧](http://tieba.baidu.com/f?kw=%B6%FE%BC%DB%C7%E2)
+
+[萝卜的博客](http://www.pauby89.com/)
+
+采用Jekyll与Jekyll-Bootstrap搭建
+
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
