@@ -1,0 +1,54 @@
+---
+layout: post
+title: BZOJ2818/GCD
+tags: [OI,数学,数论]
+category: OI
+---
+
+主要考察的是线性筛法欧拉函数
+
+关于线性素数筛与非线性的区别，我以前写过，差别不是很大
+
+参见：[两种筛法求质数的效率比较](http://eejjqq.com/blog/2013/10/27/on_prime/)
+
+{% highlight cpp %}
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#include <cmath>
+using namespace std;
+const int maxn=1e7+7;
+long long prime[maxn],phi[maxn],n,totprime;
+long long ans=0;
+bool vis[maxn];
+int main()
+{
+	scanf("%lld",&n);
+	phi[1]=1;
+	for (int i=2;i<=n;i++)
+	{
+		if (!phi[i])
+		{
+			prime[totprime++]=i;
+			phi[i]=i-1;
+		}
+		for (int j=0;j<totprime&&i*prime[j]<=n;j++)
+		{
+			if (i%prime[j])
+				phi[i*prime[j]]=phi[i]*(prime[j]-1);
+			else
+			{
+				phi[i*prime[j]]=phi[i]*prime[j];
+				break;
+			}
+		}
+	}
+	for (int i=2;i<=n;i++)
+		phi[i]+=phi[i-1];
+	for (int i=0;i<totprime;i++)
+		ans+=phi[n/prime[i]]*2-1;
+	printf("%lld\n",ans);
+	return 0;
+}
+{% endhighlight %}
