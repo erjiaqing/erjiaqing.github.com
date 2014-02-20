@@ -10,22 +10,13 @@ tagline: ~Github Pages~
 
 **如果谁有好看的番麻烦告诉我一声，谢谢！**
 
-**20140126更新**
+**联系方式**
 
-鉴于某度受越来越无节操，大家如果有兴趣的话就看一下[讨论区](http://url.eejjqq.com/u/bar)吧！
+邮件：![](/images/site/MSP44141bi534d11h5c5eeh00003c39a0908acfh88d.gif)
 
-下面是使用方法：
+QQ：![](/images/site/MSP25231e42ha6if58ie9i6000052dbi49a8g291b9g.gif)
 
-使用`New Issue`来发新帖
-
-`Open/Close`用来区分新帖与结贴列表
-
-`Sort`是排序：
-
-1. `Newest`按Po主发布时间由近至远排序
-2. `Oldest`按Po主发布时间由远及近排序（挖坟利器！）
-3. `Most/Least Commented`当然是按帖子热度排序咯
-4. `(Least) Recently Updated`按最后回复者的回复时间由近及远（由远及近）排序
+百度ID：![](/images/site/MSP2331bd4dici9fae4cf800000h7ea390ed23i020.gif)
     
 ## 友情连接
 
