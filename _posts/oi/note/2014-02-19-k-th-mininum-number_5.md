@@ -23,7 +23,7 @@ $$O(n)$$|$$O(n \log n)$$|$$O(n \log n)$$
 
 这一题和《超级钢琴》那题有点像，但是这一题由于$$k\in O(n^2)$$而会超时（此方法复杂度$$O(n^2 \log n)$$）
 
-<ruby>Code Forces<rt>膜拜红名大牛贺思瑞</rt></ruby>191 E AC Code
+<ruby>Code Forces<rt>膜拜红名大牛贺思睿</rt></ruby>191 E AC Code
 
 {% highlight cpp %}
 #include <iostream>
