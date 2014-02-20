@@ -2,7 +2,7 @@
 layout: post
 title: 区间k小数（2）
 tags: [OI,数据结构]
-category: note
+category: 笔记
 ---
 
 如果要修改呢？原来的数据结构是静态的，我们现在要动态的数据结构

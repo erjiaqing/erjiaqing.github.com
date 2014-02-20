@@ -2,7 +2,7 @@
 layout: post
 title: 区间k小数（1.5）
 tags: [OI,数据结构]
-category: note
+category: 笔记
 ---
 
 如果数字有重复，那么我们上面的程序会出点问题，然后就有了现在的代码

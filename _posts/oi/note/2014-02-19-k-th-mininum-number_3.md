@@ -2,7 +2,7 @@
 layout: post
 title: 区间k小数（3）
 tags: [OI,数据结构]
-category: note
+category: 笔记
 ---
 
 这回是区间修改
