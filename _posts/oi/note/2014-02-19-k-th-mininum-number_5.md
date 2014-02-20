@@ -30,20 +30,14 @@ $$O(n)$$|$$O(n \log n)$$|$$O(n \log n)$$
 #include <cstring>
 #include <cstdio>
 #include <algorithm>
-#include <vector>
 using namespace std;
-const int maxn=1e5+5,maxt=1800005;
-vector <int> E[maxn];
-typedef vector<int>::iterator ii;
-int v[maxn];
-int lg[maxn];
-int f[maxn][20],size,a[maxn],b[maxn],d[maxn],rt[maxn];
-int l[maxt],r[maxt],s[maxt];
-int n,m;
-//又见动态开点线段树
+const int maxn=1e5+5,maxt=2e6+5;
+typedef long long ll;
+int rt[maxn],l[maxt],r[maxt],d[maxt];
+ll tot,a[maxn],b[maxn];
 void insert(int x,int &y,int L,int R,int v)
 {
-	s[y=++size]=s[x]+1;
+	d[y=++tot]=d[x]+1;
 	if (L==R)
 		return;
 	int mid=(L+R)/2;
@@ -57,75 +51,48 @@ void insert(int x,int &y,int L,int R,int v)
 		insert(r[x],r[y],mid+1,R,v);
 	}
 }
-void dfs(int u,int dep)
+int query(int x,int L,int R,int v)
 {
-	d[u]=dep+1;
-	insert(rt[f[u][0]],rt[u],1,m,lower_bound(&b[1],&b[m+1],a[u])-&b[0]);
-	for (int k=1;k<=lg[dep];++k)
-		f[u][k]=f[f[u][k-1]][k-1];
-	for (ii k=E[u].begin();k!=E[u].end();k++)
-	{
-		if (!d[*k])
-		{
-			f[*k][0]=u;
-			dfs(*k,d[u]);
-		}
-	}
-}
-int lca(int u,int v)
-{
-	if (d[u]>d[v])
-		swap(u,v);
-	while (d[v]>d[u])
-		v=f[v][lg[d[v]-d[u]]];
-	if (u==v)
-		return u;
-	for (int k=lg[d[u]-1];k>=0;k--)
-	{
-		if (f[u][k]!=f[v][k])
-		{
-			u=f[u][k];
-			v=f[v][k];
-		}
-	}
-	return f[u][0];
-}
-int query(int x,int y,int z1,int z2,int L,int R,int v)
-{
+	if (v<0)
+		return 0;
 	if (L==R)
-		return L;
+		return d[x];
 	int mid=(L+R)/2;
-	int cur=s[l[x]]+s[l[y]]-s[l[z1]]-s[l[z2]];
-	if (v<=cur)
-		return query(l[x],l[y],l[z1],l[z2],L,mid,v);
+	if (v<=mid)
+		return query(l[x],L,mid,v);
 	else
-		return query(r[x],r[y],r[z1],r[z2],mid+1,R,v-cur);
+		return d[l[x]]+query(r[x],mid+1,R,v);
 }
 int main()
 {
-	int q,u,v,k,c;
-	scanf("%d%d",&n,&q);
+	int n;
+	long long k;
+	cin>>n>>k;
+	//scanf("%d%lld",&n,&k);
 	for (int i=1;i<=n;i++)
 	{
-		scanf("%d",&a[i]);
-		b[i]=a[i];
-		lg[i]=lg[i-1]+(i==(1<<(lg[i-1]+1)));
+		cin>>a[i];
+		//scanf("%lld",&a[i]);
+		b[i]=(a[i]+=a[i-1]);
 	}
-	sort(&b[1],&b[n+1]);
-	m=unique(&b[1],&b[n+1])-&b[1];
-	for (int i=1;i<n;i++)
+	sort(&b[0],&b[n+1]);
+	int m=unique(&b[0],&b[n+1])-&b[0];
+	for (int i=1;i<=n+1;i++)
+		insert(rt[i-1],rt[i],0,m-1,lower_bound(&b[0],&b[m],a[i-1])-&b[0]);
+	long long L=-1e14,R=1e14,mid,cnt;
+	while (L+1<R)
 	{
-		scanf("%d%d",&u,&v);
-		E[u].push_back(v);
-		E[v].push_back(u);
+		mid=(L+R)/2;
+		cnt=0;
+		for (int i=1;i<=n;i++)
+			cnt+=query(rt[i],0,m-1,upper_bound(&b[0],&b[m],a[i]-mid)-&b[1]);
+		if (cnt>=k)
+			L=mid;
+		else
+			R=mid;
 	}
-	dfs(1,0);
-	while (q--)
-	{
-		scanf("%d%d%d",&u,&v,&k);
-		c=lca(u,v);
-		printf("%d\n",b[query(rt[u],rt[v],rt[c],rt[f[c][0]],1,m,k)]);
-	}
+	cout<<L<<endl;
+	//printf("%lld\n",L);
 	return 0;
 }
 {% endhighlight %}
