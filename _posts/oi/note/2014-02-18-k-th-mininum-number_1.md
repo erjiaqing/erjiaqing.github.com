@@ -2,7 +2,7 @@
 layout: post
 title: 区间k小数（1）
 tags: [OI,数据结构]
-category: 笔记
+category: note
 ---
 
 在线段树的学习当中，我们会了解到线段树的应用之一就是求<ruby>**区间极值**<rt>Range Maxinum/Minium Query</rt></ruby>，比如区间最大值，区间最小值等等。这一类值都有一个性质就是满足区间加法的性质，即两个区间的区间最大值等于两个区间各自的最大值中较大的一个，但是，如果是求<ruby>区间k小数<rt>Range K-th number</rt></ruby>的话，就不能用简单的区间加法实现。
