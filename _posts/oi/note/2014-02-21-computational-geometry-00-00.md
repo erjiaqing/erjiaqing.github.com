@@ -16,7 +16,7 @@ category: note
 #include <iostream>
 #include <cstdio>
 #include <cstring>
-#include <algotithm>
+#include <algorithm>
 #include <cmath>
 using namespace std;
 //-- 浮点数运算
@@ -36,15 +36,15 @@ struct Point
     bool   operator != (Point a){return !((*this)==a);}
     bool   operator <  (Point a){return _l(a.y,y)||(_eq(a.y,y)&&_l(a.x,x));}
     bool   operator >  (Point a){return _l(y,a.y)||(_eq(a.y,y)&&_l(x,a.x));}
-    bool   operator +  (Point a){return Point(x+a.x,y+a.y);}
-    bool   operator -  (Point a){return Point(x-a.x,y-a.y);}
+    Point  operator +  (Point a){return Point(x+a.x,y+a.y);}
+    Point  operator -  (Point a){return Point(x-a.x,y-a.y);}
     double operator *  (Point a){return a.x*x+a.y*y;}
-    double operator .  (Point a){return x*a.y-y*a.x;}
-    Point  operator ~  (Point a){return Point(a.y,-a.x);}
+    double operator &  (Point a){return x*a.y-y*a.x;}
+    Point  operator ~  (void)   {return Point(y,-x);}
     friend Point operator *  (double a,Point  b){return Point(a*b.x,a*b.y);}
     friend Point operator *  (Point  b,double a){return Point(a*b.x,a*b.y);}
 };
-double dist(Point a,Point b){return sqrt(pow(a.x-b.x,2),pow(a.y-b.y,2));}
+double dist(Point a,Point b){return sqrt(pow(a.x-b.x,2)+pow(a.y-b.y,2));}
 typedef Point Vector;
 //-- 完毕
 {% endhighlight %}
