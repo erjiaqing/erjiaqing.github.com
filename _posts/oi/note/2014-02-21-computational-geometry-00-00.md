@@ -44,6 +44,18 @@ struct Point
     friend Point operator *  (double a,Point  b){return Point(a*b.x,a*b.y);}
     friend Point operator *  (Point  b,double a){return Point(a*b.x,a*b.y);}
 };
+//-- Line
+struct Line
+{
+    Point a,b;
+    Point operator * (Point p)
+    {
+        double x1 = a.x,x2=b.x,y1=a.y,y2=b.y;
+        double A=y1-y2,B=x2-x1,C=x1*y2-x2*y1;
+        double delta=(A*p.x+B*p.y+C)/(A*A+B*B);
+        return Point(p.x-2*A*delta,p.y-2*B*delta);
+    }
+}
 double dist(Point a,Point b){return sqrt(pow(a.x-b.x,2)+pow(a.y-b.y,2));}
 typedef Point Vector;
 //-- 完毕
