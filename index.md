@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 二价氢的小站
+title: 二价氢的题解集
 tagline: ~Github Pages~
 ---
 
@@ -12,19 +12,15 @@ tagline: ~Github Pages~
 
 **联系方式**
 
-邮件：![](/images/site/MSP44141bi534d11h5c5eeh00003c39a0908acfh88d.gif)
+邮件：ejqmain@gmail.com
 
-QQ：![](/images/site/MSP25231e42ha6if58ie9i6000052dbi49a8g291b9g.gif)
-
-百度ID：![](/images/site/MSP2331bd4dici9fae4cf800000h7ea390ed23i020.gif)
+QQ：2399632404
     
 ## 友情连接
 
 [Subjam酱](http://hi.baidu.com/rxpaxuhnkpfilsr)
 
 [ZRY007的博客](http://www.swzry.com/)
-
-[讨论区](http://url.eejjqq.com/u/bar) [二价氢吧](http://tieba.baidu.com/f?kw=%B6%FE%BC%DB%C7%E2)
 
 [萝卜的博客](http://www.pauby89.com/)
 
