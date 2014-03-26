@@ -1,0 +1,60 @@
+---
+layout: post
+title: 男人八题
+tags: [OI]
+category: OI
+---
+
+[地址](http://poj.org/showcontest?contest_id=1077)
+
+###Task A Connected Graph
+
+####题目大意：
+
+求N个点的有向无环图的个数
+
+####做法：
+
+分治
+
+![](/images/oi/poj)
+
+如上图，将图分为两个联通块，两个联通块内只要有一条边是通的，这个图就是联通图，而这两个联通块内有$$N^2$$个连边方案，减去不联通的一个即可
+
+最后DP就能过
+
+[AC Code](https://gist.github.com/erjiaqing/9776554)
+
+###Task B
+
+####题目大意：
+
+合并石子
+
+####做法：
+
+第一眼：这不是水DP么？
+
+第二眼：我去这数据范围能做？
+
+有一种叫做[“GarsiaWachs”](http://lightsky0713.blog.163.com/blog/static/223581083201371454912412/)的算法可以搞定这道题
+
+[AC Code](https://gist.github.com/erjiaqing/9776593)
+
+###Tack C
+
+
+###Task D
+
+
+###Task E
+
+
+###Task F
+
+
+###Task G
+
+
+###Task H
+
