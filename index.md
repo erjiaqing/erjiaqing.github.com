@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 二价氢的题解集
+title: 氢酱的代码们
 tagline: ~Github Pages~
 ---
 

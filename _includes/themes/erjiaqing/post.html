@@ -1,0 +1,57 @@
+<div class="page-header">
+  <h1>
+    {{ page.title }} 
+    {% if page.tagline %}
+      <small>{{ page.tagline }}</small>
+    {% endif %}
+  </h1>
+</div>
+
+<div class="row">
+  <div class="col-8">
+    {{ content }}
+    <hr>
+    <div class="pagination btn-group">
+	<ul class="pagination">
+	      {% if page.previous %}
+		<li class="previous active"><a href="{{ BASE_PATH }}{{ page.previous.url }}">« Previous</a></li>
+	      {% else %}
+		<li class="disabled"><a href="#">« Previous</a></li>
+	      {% endif %}
+	      <li class="active"><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+	      {% if page.next %}
+	      <li class="next active"><a href="{{ BASE_PATH }}{{ page.next.url }}">Next »</a></li>
+	      {% else %}
+	      <li class="disabled"><a href="#">Next »</a></li>
+	      {% endif %}
+	</ul>
+
+    </div>
+    <hr>
+    {% include JB/comments %}
+  </div>
+  
+  <div class="col-4">
+    <section>
+      <h4>Published</h4>
+      <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
+    </section>
+    {% if page.category %}
+      <section>
+        <h4>Category</h4>
+        <span class="category">
+          {{ page.category }}
+        </span>
+      </section>
+    {% endif %}     
+    {% unless page.tags == empty %}
+      <section>
+        <h4>Tags</h4>
+        <ul class="tag_box">
+          {% assign tags_list = page.tags %}
+          {% include JB/tags_list %}
+        </ul>
+      </section>
+    {% endunless %}         
+  </div>
+</div>
