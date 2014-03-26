@@ -16,10 +16,6 @@
 
 [ZRY007的博客](http://www.swzry.com/)
 
-[讨论区](http://url.eejjqq.com/u/bar)
-
-[二价氢吧](http://tieba.baidu.com/f?kw=%B6%FE%BC%DB%C7%E2)
-
 [萝卜的博客](http://www.pauby89.com/)
 
 
