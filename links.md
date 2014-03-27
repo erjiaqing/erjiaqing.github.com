@@ -1,29 +1,8 @@
 ---
 layout: page
-title: 氢酱的代码们
-tagline: ~Github Pages~
+title: 友情链接
+tagline: ~Orz Orz Orz~
 ---
-
-##各位神犇你们好！
-
-[另一个博客](http://eejjqq.com/)\|[文章](http://blog.eejjqq.com/archive.html)\|[标签](http://blog.eejjqq.com/tags.html)\|[完全没有分类的必要因为这里只有OI题解和HelloWorld](http://blog.eejjqq.com/categories.html)
-
-**如果谁有好番麻烦告诉我一声，谢谢！**
-
-**联系方式**
-
-邮件：ejqmain@gmail.com
-
-QQ：2399632404
-    
-## 友情连接
-
-[Subjam酱](http://hi.baidu.com/rxpaxuhnkpfilsr)
-
-[ZRY007的博客](http://www.swzry.com/)
-
-[萝卜的博客](http://www.pauby89.com/)
-
 ##贴吧神犇
 
 (长度降序无视大小写字典升序排列)
