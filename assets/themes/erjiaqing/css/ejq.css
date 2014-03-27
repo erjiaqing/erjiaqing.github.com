@@ -2,20 +2,25 @@
  | ejq.css for blog.eejjqq.com |
 \*------------------------------*/
         @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700);
-
+        html,body{
+          padding: 0;
+          margin: 0;
+          display:block;
+        }
         .blog{
           margin:0 auto;
           padding: 45px;
+          width: 100%;
           font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
         }
 	.content{
-	  width: 1140px;margin:0 auto;
+	  width: max(1140px,100%);margin:0 auto;
 	}
 	.content @media only screen and (max-width: 1100px){
-	  width: 940px;margin:0 auto;
+	  width: max(1140px,100%);margin:0 auto;
 	}
 	.content @media only screen and (max-width: 760px){
-	  width: 724px;margin:0 auto;
+	  width: max(1140px,100%);margin:0 auto;
 	}
 	.content @media only screen and (max-width: 700px){
 	  padding: 0 10px;margin:0 auto;
@@ -58,6 +63,10 @@
           color:#FFF;
           background:rgba(30,144,255,0.7);
           background-color:rgba(30,144,255,0.7);
+        }
+        img{
+          max-width:100%;
+          max-height:
         }
     .headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .5s ease-in-out;}  
     .headroom--unpinned {top: -100px;}  
