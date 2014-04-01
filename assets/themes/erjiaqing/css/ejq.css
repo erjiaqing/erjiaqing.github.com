@@ -1,17 +1,17 @@
 /*------------------------------*\
- | ejq.css for blog.eejjqq.com |
+ | ejq.css for blog.eejjqq.com  |
 \*------------------------------*/
         @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700);
         html,body{
           padding: 0;
           margin: 0;
           display:block;
+          font-family: 'Helvetica Neue', 'Arial' , 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
         }
         .blog{
           margin:0 auto;
           padding: 45px;
           width: 100%;
-          font-family: 'Helvetica Neue', 'Arial' , 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
         }
 	.content{
 	  width: max(1140px,100%);margin:0 auto;
@@ -34,9 +34,9 @@
 	  color: #999999;
 	  font-size: 60%;
 	}
-        .highlight{
+        code{
           font-size: 14px;
-          font-family:'Ubuntu Mono','Courier New',mono-space ;
+          font-family:'Ubuntu Mono','Courier New',monospace ;
         }
         .MathJax{
           color: #000;
@@ -57,21 +57,36 @@
           position:fixed;
           width:100%;
         }
+        .navigation-bar ul li a:not(.button)
+        {
+          background:rgba(30,144,255,0.0);
+          text-shadow: 0px 0px 0px #FFFFFF;
+	  transition: background 0.5s , text-shadow 0.5s;
+	  -moz-transition: background 0.5s , text-shadow 0.5s;
+	  -webkit-transition: background 0.5s , text-shadow 0.5s;
+	  -o-transition: background 0.5s , text-shadow 0.5s;
+        }
         .navigation-bar ul li a:hover:not(.button) ,
         .navigation-bar .brand-section .active
         {
           color:#FFF;
           background:rgba(30,144,255,0.7);
-          background-color:rgba(30,144,255,0.7);
+          text-shadow: 0px 0px 5px #FFFFFF;
+	  transition: background 0.5s , text-shadow 0.5s;
+	  -moz-transition: background 0.5s , text-shadow 0.5s;
+	  -webkit-transition: background 0.5s , text-shadow 0.5s;
+	  -o-transition: background 0.5s , text-shadow 0.5s;
         }
         .tag_box li a span{
-                font-size:0.2em;
+                vertical-align:super;
         }
         .tag_box{
 		list-style: none;
         }
         .tag_box a{
                 color:#ffffff;
+                padding:5px;
+                /*margin:2px;*/
 		transition: background 0.5s;
 		-moz-transition: background 0.5s;
 		-webkit-transition: background 0.5s;
@@ -83,7 +98,7 @@
          }
         .tag_box li{
                 display:inline;
-                margin:5px;
+                margin:3px;
                 word-break:keep-all;
                 white-space:nowrap;
          }
