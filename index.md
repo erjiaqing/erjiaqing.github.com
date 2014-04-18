@@ -4,6 +4,27 @@ title: 氢酱的代码们
 tagline: ~Github Pages~
 ---
 
+#HBOI 2014 Bless All
+
+`RP++`
+
+<!-- 多说评论框 start -->
+<div class="ds-thread" data-thread-key="index" data-title="氢酱的代码们~githubpages" data-url="http://blog.eejjqq.com/"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"blog-eejjqq"};
+(function() {
+var ds = document.createElement('script');
+ds.type = 'text/javascript';ds.async = true;
+ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+ds.charset = 'UTF-8';
+(document.getElementsByTagName('head')[0] 
+ || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+<!-- 多说公共JS代码 end -->
+
 ##各位神犇你们好！
 
 [另一个博客](http://eejjqq.com/)\|[文章](http://blog.eejjqq.com/archive.html)\|[标签](http://blog.eejjqq.com/tags.html)\|[完全没有分类的必要因为这里只有OI题解和HelloWorld](http://blog.eejjqq.com/categories.html)
