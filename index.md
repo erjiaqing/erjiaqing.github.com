@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: 氢酱的代码们
 tagline: ~Github Pages~
@@ -7,23 +7,6 @@ tagline: ~Github Pages~
 #HBOI 2014 Bless All
 
 `RP++`
-
-<!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="index" data-title="氢酱的代码们~githubpages" data-url="http://blog.eejjqq.com/"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"blog-eejjqq"};
-(function() {
-var ds = document.createElement('script');
-ds.type = 'text/javascript';ds.async = true;
-ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-ds.charset = 'UTF-8';
-(document.getElementsByTagName('head')[0] 
- || document.getElementsByTagName('body')[0]).appendChild(ds);
-})();
-</script>
-<!-- 多说公共JS代码 end -->
 
 ##各位神犇你们好！
 
@@ -37,8 +20,7 @@ ds.charset = 'UTF-8';
 
 QQ：2399632404
 
-<iframe src="http://free.timeanddate.com/countdown/i43mp25j/n665/cf11/cm0/cu4/ct1/cs1/ca0/cr1/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tat%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tac000/tpt%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tpc000/matDay1/mac000/mptDay1%5BFinished%5D/mpc000/iso2014-04-19T08:00:00" frameborder="0" width="106" height="54"></iframe>
-<iframe src="http://free.timeanddate.com/countdown/i43mp25j/n665/cf11/cm0/cu4/ct1/cs1/ca0/cr1/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tat%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tac000/tpt%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tpc000/matDay2/mac000/mptDay2%5BFinished%5D/mpc000/iso2014-04-20T08:00:00" frameborder="0" width="106" height="54"></iframe>
+<iframe src="http://free.timeanddate.com/countdown/i43mp25j/n665/cf11/cm0/cu4/ct1/cs1/ca0/cr1/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tat%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tac000/tpt%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tpc000/matDay2/mac000/mptDay2%5BFinished%5D/mpc000/iso2014-04-26T08:00:00" frameborder="0" width="106" height="54"></iframe>
     
 ## 友情连接
 
