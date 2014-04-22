@@ -123,3 +123,22 @@
     .headroom--unpinned {top: -100px;}  
     .headroom--pinned {top: 0;}  
 
+    .back-to-top{
+          position:fixed;
+          bottom:100px;
+          right:100px;
+    }
+    .back-to-top li{
+          opacity:0.6;
+          display:block;
+          font-size:1.2em;
+          transition:opacity 0.5s;
+          -moz-transition:opacity 0.5s;
+          -webkit-transition:opacity 0.5s;
+          -o-transition:opacity 0.5s;
+    }
+    .back-to-top li:hover{
+          opacity:1.0;
+    }
+
+

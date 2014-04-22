@@ -32,7 +32,7 @@
   -->
   </head>
 
-  <body>
+  <body id="body">
 
 
 <nav class="navigation-bar " id="nav">
@@ -99,11 +99,17 @@
         </p>
       </footer>
     </div> <!-- /container -->
-
+    <div class="back-to-top">
+    <ul>
+    <li class="back-to-btn"><a id="back-to-top" href="#body"><i class="icon-arrow-up"></i> Top</a></li>
+    <li class="back-to-btn"><a id="back-to-comment" href="#comments"><i class="icon-comments"></i> Comments</a></li>
+    </ul>
+    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/jquery.min.js"><\/script>')</script>
     <script src="{{ ASSET_PATH }}/js/furatto.min.js"></script>
     <script src="{{ ASSET_PATH }}/js/headroom.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/ejq.js"></script>
     <script>
 // 获取页面元素
 var myElement = document.querySelector("#nav");
