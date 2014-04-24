@@ -4,11 +4,9 @@ title: 氢酱的代码们
 tagline: ~Github Pages~
 ---
 
-#HBOI 2014 Bless All
+#HBOI 2014 Day2 Bless All
 
-`RP++`
-
-##各位神犇你们好！
+#各位神犇你们好！
 
 [另一个博客](http://eejjqq.com/)\|[文章](http://blog.eejjqq.com/archive.html)\|[标签](http://blog.eejjqq.com/tags.html)\|[完全没有分类的必要因为这里只有OI题解和HelloWorld](http://blog.eejjqq.com/categories.html)
 
@@ -20,9 +18,9 @@ tagline: ~Github Pages~
 
 QQ：2399632404
 
-<iframe src="http://free.timeanddate.com/countdown/i43mp25j/n665/cf11/cm0/cu4/ct1/cs1/ca0/cr1/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tat%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tac000/tpt%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tpc000/matDay2/mac000/mptDay2%5BFinished%5D/mpc000/iso2014-04-26T08:00:00" frameborder="0" width="106" height="54"></iframe>
+<iframe src="http://free.timeanddate.com/countdown/i43mp25j/n665/cf11/cm0/cu4/ct1/cs1/ca0/cr1/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tat%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tac000/tpt%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tpc000/matDay2/mac000/mptDay2%5BFinished%5D/mpc000/iso2014-04-26T07:30:00" frameborder="0" width="106" height="54"></iframe>
     
-## 友情连接
+#友情连接
 
 [Subjam酱](http://hi.baidu.com/rxpaxuhnkpfilsr)
 
@@ -30,7 +28,7 @@ QQ：2399632404
 
 [萝卜的博客](http://www.pauby89.com/)
 
-##贴吧神犇
+#贴吧神犇
 
 (长度降序无视大小写字典升序排列)
 
