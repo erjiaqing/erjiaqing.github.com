@@ -4,7 +4,7 @@ title: 氢酱的代码们
 tagline: ~Github Pages~
 ---
 
-#HBOI 2014 Day2 Bless All
+#NOI 2014 Bless All
 
 #各位神犇你们好！
 
@@ -17,8 +17,6 @@ tagline: ~Github Pages~
 邮件：ejqmain@gmail.com
 
 QQ：2399632404
-
-<iframe src="http://free.timeanddate.com/countdown/i43mp25j/n665/cf11/cm0/cu4/ct1/cs1/ca0/cr1/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tat%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tac000/tpt%E7%9C%81%E9%98%9F%E9%80%89%E6%8B%94%E8%B5%9B/tpc000/matDay2/mac000/mptDay2%5BFinished%5D/mpc000/iso2014-04-26T07:30:00" frameborder="0" width="106" height="54"></iframe>
     
 #友情连接
 
