@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      {% if page.title %}
+        {{ page.title }} - 
+      {% endif %}
+      {{ site.title }}
+    </title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link href="{{ ASSET_PATH }}/css/furatto.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/normalize.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/pygments.css" rel="stylesheet" type="text/css">
+    <link href="{{ ASSET_PATH }}/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ ASSET_PATH }}/css/ejq.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body id="body">
+
+
+<nav class="navigation-bar " id="nav">
+   <ul class="brand-section">
+     <li class="brand-name">
+      <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+     </li>
+              {% assign pages_list = site.pages %}
+              {% assign group = 'navigation' %}
+              {% include JB/pages_list %}
+   </ul>
+   <ul class="pull-right">
+              <li class="divider-vertical"></li>
+              {% if site.author.github %}
+                <li>
+                  <a href="https://github.com/{{ site.author.github }}" target="_blank">
+                    <i class="icon-2x icon-github"></i><span class="hidden-on-large">Github</span>
+                  </a>
+                </li>
+              {% endif %}
+              {% if site.author.googleplus %}
+                <li>
+                  <a href="https://plus.google.com/{{ site.author.googleplus }}" class="icon-google-plus" target="_blank">
+                    <i class="icon-2x icon-google-plus"></i><span class="hidden-on-large">Google+</span>
+                  </a>
+                </li>
+              {% endif %}    
+              {% if site.author.twitter %}
+                <li>
+                  <a href="https://twitter.com/{{ site.author.twitter }}" class="icon-twitter" target="_blank">
+                  <i class="icon-2x icon-twitter"></i><span class="hidden-on-large">Twitter</span>
+                  </a>
+                </li>
+              {% endif %}                          
+              {% if site.author.facebook %}
+                <li>
+                  <a href="http://www.facebook.com/{{ site.author.facebook }}" class="icon-facebook" target="_blank">
+                    <i class="icon-2x icon-facebook"></i><span class="hidden-on-large">Facebook</span>
+                  </a>
+                </li>
+              {% endif %}           
+              {% if site.author.linkedin %}
+                <li>
+                  <a href="http://www.linkedin.com/in/{{ site.author.linkedin }}" class="icon-linkedin" target="_blank">
+                    <i class="icon-2x icon-linkedin"></i><span class="hidden-on-large">LinkedIn</span>
+                  </a>
+                </li>
+              {% endif %}                    
+   </ul>
+</nav>
+
+    <div class="blog">
+      <div class="content">
+        {{ content }}
+      </div>
+
+      <footer>
+        <p>
+        <!--<p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}-->
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-sa.svg"></a><br>
+除非特别声明，否则内容采用知识共享署名-相同方式共享 4.0 国际许可协议进行许可。<br/>
+          Based on <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          Using <a href="http://github.com/erjiaqing/erjiaqing.github.com" target="_blank">erjiaqing</a> theme
+        </p>
+      </footer>
+    </div> <!-- /container -->
+    <div class="back-to-top">
+    <ul>
+    <li class="back-to-btn"><a id="back-to-top" href="#body"><i class="icon-arrow-up"></i> Top</a></li>
+    <li class="back-to-btn"><a id="back-to-comment" href="#comments"><i class="icon-comments"></i> Comments</a></li>
+    </ul>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/jquery.min.js"><\/script>')</script>
+    <script src="{{ ASSET_PATH }}/js/furatto.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/headroom.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/ejq.js"></script>
+    <script>
+// 获取页面元素
+var myElement = document.querySelector("#nav");
+// 创建 Headroom 对象，将页面元素传递进去
+var headroom  = new Headroom(myElement);
+// 初始化
+headroom.init(); 
+    </script>
+    {% include JB/analytics %}
+  </body>
+</html>
