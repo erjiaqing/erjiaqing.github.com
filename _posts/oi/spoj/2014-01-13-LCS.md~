@@ -1,0 +1,98 @@
+---
+layout: post
+title: SPOJ1811/LCS/Longest Common Substring
+tags: [字符串,后缀自动机]
+category: OI
+---
+
+<ruby>后缀自动机<rt>Suffix Automaton/SAM</rt></ruby>
+
+将字符串A建立后缀自动机，用字符B在自动机上跑一遍，跑得最远的位置就是答案～
+
+AC-Code
+
+{% highlight cpp %}
+/*
+ * SPOJ 1811 LCS
+ * Longest Common Substring
+ * 后缀树/后缀自动机
+ */
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#include <cmath>
+using namespace std;
+const int maxn=250005;
+char a[maxn],b[maxn];
+int la,lb;
+struct t{
+	int l;
+	t *f,*n[26];
+	t (int _l=0,t *_f=NULL):l(_l),f(_f){
+		memset(n,0,sizeof(n));
+	};
+};
+t *build(char *s,int ls)
+{
+	t *root=new t(0,NULL),*cur=root;
+	for (int i=0;i<ls;i++)
+	{
+		int x=s[i]-'a';
+		t *p=cur;
+		cur=new t(i+1,NULL);
+		for (;p && p->n[x]==NULL;p=p->f)
+			p->n[x]=cur;
+		if (!p)
+			cur->f=root;
+		else
+		{
+			t *q=p->n[x];
+			if (q->l == p->l+1)
+				cur->f=q;
+			else
+			{
+				t *r=new t();*r=*q;
+				r->l=p->l+1;
+				q->f=r;
+				cur->f=r;
+				for (;p && p->n[x]==q;p=p->f)
+					p->n[x]=r;
+			}
+		}
+	}
+	return root;
+}
+int main()
+{
+	scanf("%s%s",a,b);
+	la=strlen(a),lb=strlen(b);
+	t *p=build(a,la),*root=p;
+	int ret=0;
+	for (int i=0,l=0;i<lb;i++)
+	{
+		int x=b[i]-'a';
+		if (p->n[x])
+			l++,p=p->n[x];
+		else
+		{
+			while (p && p->n[x]==NULL)
+				p=p->f;
+			if (p)
+			{
+				l=p->l+1;
+				p=p->n[x];
+			}else
+			{
+				p=root;
+				l=0;
+			}
+		}
+		if (ret<l)
+			ret=l;
+	}
+	printf("%d\n",ret);
+	return 0;
+}
+{% endhighlight %}
+
