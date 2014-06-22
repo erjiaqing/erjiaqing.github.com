@@ -22,6 +22,20 @@
     <link href="{{ ASSET_PATH }}/css/pygments.css" rel="stylesheet" type="text/css">
     <link href="{{ ASSET_PATH }}/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="{{ ASSET_PATH }}/css/ejq.css" rel="stylesheet" type="text/css">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea']
+      }
+    });
+
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script> 
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <!-- fav and touch icons -->
   <!-- Update these with your own images
