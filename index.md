@@ -4,6 +4,10 @@ title: 氢酱的代码们
 tagline: ~Github Pages~
 ---
 
+果你位于中国大陆，那么你可能无法访问Gist
+
+在[erjiaqing/my_solutions](https://github.com/erjiaqing/my_solutions)里有我所有题目的AC代码
+
 #NOI 2015 Bless All（退役了啦啦啦，看风景啦啦啦
 
 #各位神犇你们好！
