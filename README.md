@@ -1,3 +1,5 @@
+如果你位于中国大陆，那么你可能无法访问Gist，在[erjiaqing/my_solutions](https://github.com/erjiaqing/my_solutions)里有我所有题目的AC代码
+
 两年的OIer生涯就这样伴随着NOI 2014的银牌而结束了
 
 没有拿到金牌，十分不甘心
