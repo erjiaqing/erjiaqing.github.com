@@ -10,11 +10,7 @@ tagline: ~Github Pages~
 
 #NOI 2015 Bless All（退役了啦啦啦，看风景啦啦啦
 
-#各位神犇你们好！
-
-<iframe src="http://free.timeanddate.com/countdown/i49hor9j/n665/cf11/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac000/cpc000/pcfff/tc66c/fn3/fs100/szw320/szh135/tat2015%E9%AB%98%E8%80%83/tac000/tpt2015%E9%AB%98%E8%80%83/tpc000/iso2015-06-07T09:00:00" frameborder="0" width="300" height="40"></iframe>
-
-**如果谁有好番麻烦告诉我一声，谢谢！**
+#<ruby>NCEE<rt>高考</rt></ruby> 2015 Bless All
 
 **联系方式**
 
