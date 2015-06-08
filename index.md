@@ -10,7 +10,7 @@ tagline: ~Github Pages~
 
 #NOI 2015 Bless All（退役了啦啦啦，看风景啦啦啦
 
-#<ruby>NCEE<rt>高考</rt></ruby> 2015 Bless All
+我回来了~
 
 **联系方式**
 
