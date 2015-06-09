@@ -18,11 +18,9 @@
     
 ## 友情连接
 
-[Subjam酱](http://hi.baidu.com/rxpaxuhnkpfilsr)
+[Subjam酱(百度空间已失效)]()
 
 [ZRY007的博客](http://www.swzry.com/)
-
-[萝卜的博客](http://www.pauby89.com/)
 
 
 
