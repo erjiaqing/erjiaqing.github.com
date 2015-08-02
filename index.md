@@ -8,13 +8,9 @@ tagline: ~Github Pages~
 
 在[erjiaqing/my_solutions](https://github.com/erjiaqing/my_solutions)里有我所有题目的AC代码
 
-#NOI 2015 Bless All（退役了啦啦啦，看风景啦啦啦
-
-我回来了~
-
 **联系方式**
 
-邮件：ejqmain@gmail.com
+邮件：gs199704@gmail.com
 
 QQ：2399632404
     
