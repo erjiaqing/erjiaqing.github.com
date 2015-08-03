@@ -4,6 +4,8 @@ title: 氢酱的代码们
 tagline: ~Github Pages~
 ---
 
+由于精力问题，我无力维护两个站点，于是我将[https://ejq.me/](https://ejq.me/)变成了这个GithubPages的一个镜像站点，如果你访问Github有困难，可以直接访问ejq.me~
+
 果你位于中国大陆，那么你可能无法访问Gist
 
 在[erjiaqing/my_solutions](https://github.com/erjiaqing/my_solutions)里有我所有题目的AC代码
