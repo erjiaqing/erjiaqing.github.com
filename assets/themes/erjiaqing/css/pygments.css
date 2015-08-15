@@ -2,19 +2,19 @@ pre:not(.line-pre){
  background-color: rgba(30,144,255,0.2);
  padding:10px;
  margin:10px;
- border-radius:5px;
- -moz-border-radius:5px; /* Old Firefox */
+ border-radius:0px;
+ -moz-border-radius:0px; /* Old Firefox */
  text-shadow: 0px 0px 5px #FFFFFF;
- box-shadow: 0px 0px 5px #1E90FF;
+ box-shadow: 0px 0px 2px #1E90FF;
 }
 p code{
  background-color: rgba(30,144,255,0.2);
  padding:2px;
- margin:2px;
- border-radius:2px;
- -moz-border-radius:2px; /* Old Firefox */
+ margin:1px;
+ border-radius:0px;
+ -moz-border-radius:0px; /* Old Firefox */
  text-shadow: 0px 0px 5px #FFFFFF;
- box-shadow: 0px 0px 5px #1E90FF;
+ box-shadow: 0px 0px 2px #1E90FF;
 }
 /*.hll { background-color: #ffffcc }*/
 .highlight .c { color: #408080; font-style: italic } /* Comment */
