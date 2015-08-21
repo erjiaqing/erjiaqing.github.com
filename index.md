@@ -4,11 +4,13 @@ title: 氢酱的代码们
 tagline: ~Github Pages~
 ---
 
-由于精力问题，我无力维护两个站点，于是我将[https://ejq.me/](https://ejq.me/)变成了这个GithubPages的一个镜像站点，如果你访问Github有困难，可以直接访问ejq.me~
+今后的题解将在[ejq.me](ejq.me)同步发布
+
+同时[ejq.me](ejq.me)也将发布一些日常向的内容，内容丰富，而这里将仅更新题解，内容干净
 
 果你位于中国大陆，那么你可能无法访问Gist
 
-在[erjiaqing/my_solutions](https://github.com/erjiaqing/my_solutions)里有我所有题目的AC代码
+在[erjiaqing/my_solutions](https://github.com/erjiaqing/my_solutions)里有我所有题目的AC代码（然而想不通有些人fork的意义）
 
 **联系方式**
 
