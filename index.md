@@ -22,6 +22,8 @@ QQ：2399632404
 
 [Subjam酱(百度空间已失效)]()
 
+WHU_FFT队:[EJQ](https://ejq.me/),[Sagitta](),[NKWBTB](http://blog.csdn.net/nkwbtb)
+
 (长度降序无视大小写字典升序排列)
 
 [ZeroStarting](http://lichblog.blog.163.com)|[GreenCloudS](http://cjjlsdy.blog.163.com/)|[Sealed time](http://forever110550.logdown.com/)|[Gasai Yuno](http://www.4321.io)
