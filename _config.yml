@@ -11,10 +11,10 @@ theme : erjiaqing
 # so be sure to set them if your theme uses them.
 #
 title : 氢酱的代码们
-tagline: Think More
+tagline: 一言蔽之，就是爱啊
 author :
   name : 二价氢
-  email : ejqmain@gmail.com
+  email : gs199704@gmail.com
   github : erjiaqing
 
 # The production_url is only used when full-domain names are needed
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://blog.eejjqq.com
+production_url : http://c.ejq.me
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
