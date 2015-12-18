@@ -30,7 +30,7 @@ QQ：2399632404
 
 [修道院老僧](http://45.78.28.230/wordpress/)|[hzwer](http://hzwer.com)|[Totoro97](http://o-o-o-y.diandian.com/)|[胜者为王](http://jiruyi910387714.is-programmer.com/)
 -|-|-|-
-[111qqz](http://blog.163.com/i_oi/)|[ydc](http://ydcydcy1.blog.163.com/)|[ZRY007的博客](http://www.swzry.com/)|*
+[Dr.Lib](http://im.librazy org)|[111qqz](http://blog.163.com/i_oi/)|[ydc](http://ydcydcy1.blog.163.com/)|[ZRY007的博客](http://www.swzry.com/)
 -|-|-|-
 
 如果下面的人有人知道新的博客地址之类的话，欢迎联系我
@@ -41,6 +41,6 @@ QQ：2399632404
 -|-|-|-
 *|[yhylord](http://yhylord.logdown.com/)|*|[【夏流】](http://my.csdn.net/q775968375)
 -|-|-|-
-[Falsyta](http://falsyta.tk:8080/)|*|[Dr.Lib](http://im.librazy org)|[pi_pyc](http://charlie01.is-programmer.com/)
+[Falsyta](http://falsyta.tk:8080/)|*|*|[pi_pyc](http://charlie01.is-programmer.com/)
 -|-|-|-
 [SKY的C](http://skydec.is-programmer.com/)|[tsyao](http://tsyao.tk/)|*|*
