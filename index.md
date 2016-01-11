@@ -17,6 +17,21 @@ tagline: ~Github Pages~
 邮件：gs199704@gmail.com
 
 QQ：2399632404
+
+#寒假提升计划(Level Upper 2016)
+(Flag立好了，可以婊了）
+
+WHU 寒假集训 Div1 & 2 AK
+
+[ ] Prog. 0%
+
+CodeForces Div.1 A ＋ B ＋ C + D ＊ 10
+
+[ ] Prog. A:0 / 10,B:0 / 10,C:0 / 10,D:0 / 10
+
+TopCoder Div1 (250 + 500) * 5
+
+[ ] Prog. 250: 0 / 5, 500: 0 / 5
     
 #友情连接
 
