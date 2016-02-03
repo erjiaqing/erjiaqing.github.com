@@ -1,15 +1,12 @@
 <div class="page-header">
-  <h1>
-    {{ page.title }} 
-    {% if page.tagline %}
-      <small>{{ page.tagline }}</small>
-    {% endif %}
-  </h1>
+  <h1>{{ page.title }}{% if page.tagline %}<small>{{ page.tagline }}</small>{% endif %}</h1>
 </div>
 
 <div class="row">
   <div class="col-8">
+	<div id="post-content">
     {{ content }}
+	</div>
     <hr>
     <div class="pagination btn-group">
 	<ul class="pagination">
@@ -32,7 +29,8 @@
     {% include JB/comments %}
   </div>
   
-  <div class="col-4">
+  <div class="col-4" id="right-col">
+	  <div id="right-float">
     <section>
       <h4>Published</h4>
       <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
@@ -53,6 +51,7 @@
           {% include JB/tags_list %}
         </ul>
       </section>
-    {% endunless %}         
+    {% endunless %}
+	  </div>	
   </div>
 </div>

@@ -22,4 +22,12 @@ $(document).ready(function(){
         $("#back-to-comment").hide(); 
     } 
     });
+	$(function () {
+	var res = "";
+	$("div#post-content h1, div#post-content h2, div#post-content h3, div#post-content h4, div#post-content h5, div#post-content h6").each(function(){
+		res = res + '<li><a href="#' + $(this).attr('id') + '">' + $(this).html() + '</a></li>';
+	});
+	$('#right-float').html($('#right-float').html() + '<section id="toc"><h4>ToC</h4><ul>' + res + '</ul>');
+	$('#right-float').stickUp();
+	});
 });
