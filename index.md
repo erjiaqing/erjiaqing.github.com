@@ -27,7 +27,7 @@ WHU 寒假集训 Div1 & 2 AK
 
 CodeForces Div.1 A ＋ B ＋ C + D ＊ 10
 
-- [ ] Prog. A:4 / 10,B:4 / 10,C:1 / 10,D:1 / 10
+- [ ] Prog. A:4 / 10,B:4 / 10,C:2 / 10,D:1 / 10
 
 TopCoder Div1 (250 + 500) \* 5
 
