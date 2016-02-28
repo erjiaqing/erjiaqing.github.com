@@ -18,7 +18,7 @@
     
 ## 友情连接
 
-[Subjam酱(百度空间已失效)]()
+[Subjam酱](http://dailinsubjam.github.io/)
 
 [ZRY007的博客](http://www.swzry.com/)
 
