@@ -16,27 +16,10 @@ title: 氢酱的代码们
 
 QQ：2399632404
 
-寒假提升计划(Level Upper 2016)
-==============================
-
-(Flag立好了，可以婊了）
-
-WHU 寒假集训 Div1 & 2 AK
-
-- [ ] Prog. 0%
-
-CodeForces Div.1 A ＋ B ＋ C + D ＊ 10
-
-- [ ] Prog. A:4 / 10,B:4 / 10,C:2 / 10,D:1 / 10
-
-TopCoder Div1 (250 + 500) \* 5
-
-- [*] Prog. 250: 5 / 5, 500: 5 / 5
-
 友情连接
 ========
 
-[Subjam酱(百度空间已失效)]
+[Subjam酱](<http://dailinsubjam.github.io/>)
 
 2015年WHU\_FFT队:[EJQ](<https://ejq.me/>),[Sagitta](<http://www.cnblogs.com/sagitta/>),[NKWBTB](<http://blog.csdn.net/nkwbtb>)
 
