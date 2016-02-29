@@ -19,26 +19,49 @@ jQuery(function($){$(document).ready(function(){var contentButton = [];var conte
 
 function doAtReady() {
 	$(function () {
-	var res = "";
-	$("div#post-content h1, div#post-content h2, div#post-content h3, div#post-content h4, div#post-content h5, div#post-content h6").each(function(){
-		res = res + '<li><a href="#' + $(this).attr('id') + '">' + $(this).html() + '</a></li>';
+	if ($("#right-float").length > 0){ 
+      var res = "";
+      $("div#post-content h1, div#post-content h2, div#post-content h3, div#post-content h4, div#post-content h5, div#post-content h6").each(function(){res = res + '<li><a href="#' + $(this).attr('id') + '">' + $(this).html() + '</a></li>';});
+	  $('#right-float').html($('#right-float').html() + '<section id="toc"><h4>ToC</h4><ul>' + res + '</ul>');
+      //$('#right-float').stickUp();
+	}
+    if ($("#comments").length != 0) { 
+        $("#back-to-comment").fadeOut(); 
+    } else {
+        $("#back-to-comment").fadeIn();
+	}
 	});
-	$('#right-float').html($('#right-float').html() + '<section id="toc"><h4>ToC</h4><ul>' + res + '</ul>');
-	$('#right-float').stickUp();
-	});
-	$("a").click(function(event) {
-  	  jumpToNewPage(event.toElement.href);
-	  alert("jump");
-	  return false;
-    });
+	/*
+	$("a[href='"+location.pathname+"']").addClass('active');
+	$("li[data='"+location.pathname+"']").addClass('active');
+	$("a[href~='"+location.pathname+"']").removeClass('active');
+	$("li[data~='"+location.pathname+"']").removeClass('active');
+	*/
+	MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 }
 
-function jumpToNewPage(href) {
+function jumpToNewPage(href, ifscroll) {
   reg = new RegExp("<!--BEGIN_CONTENT-->(.|\\n)*<!--END_CONTENT-->", "gm");
-  $.get(href, function(data){$(".content").html(data.match(reg));});
-  history.pushState(location.href, null, href);
-  doAtReady();
+  DISQUS=null;
+  $.get(href, function(data){
+	$(".content").html(data.match(reg));
+	$("title").html(data.match(/<title>(.|\n)*<\/title>/gm)[0].slice(7,-8));
+	history.pushState(location.href, null, href);
+	doAtReady();
+	if (ifscroll) {
+	  $('body,html').animate({scrollTop:0},1000);
+	}
+  });
 }
+
+$("a").click(function(event) {
+  alert(event.toElement.pathname + '\n' + location.pathname);
+  if (event.toElement.pathname != location.pathname) {
+	  jumpToNewPage(event.toElement.href, true);
+	  return false;
+  }
+});
+
 
 window.onpopstate = function(event) {
   reg = new RegExp("<!--BEGIN_CONTENT-->(.|\\n)*<!--END_CONTENT-->", "gm");
