@@ -32,17 +32,16 @@ function jumpToNewPage(href, ifscroll) {
 	if (ifscroll) {
 	  $('body,html').animate({scrollTop:0},1000);
 	}
+    $("div.content a").click(function(event) {
+      alert(event.toElement.pathname + '\n' + location.pathname);
+      if (event.toElement.pathname != location.pathname) {
+  	      alert("jump -> " + location.pathname);
+	      jumpToNewPage(event.toElement.href, true);
+	      return false;
+      }
+    });
   });
 }
-
-$("a").click(function(event) {
-  alert(event.toElement.pathname + '\n' + location.pathname);
-  if (event.toElement.pathname != location.pathname) {
-	  jumpToNewPage(event.toElement.href, true);
-	  return false;
-  }
-});
-
 
 window.onpopstate = function(event) {
   reg = new RegExp("<!--BEGIN_CONTENT-->(.|\\n)*<!--END_CONTENT-->", "gm");
@@ -73,5 +72,12 @@ $(document).ready(function(){
         $("#back-to-comment").hide(); 
     } 
     });
+$("a").click(function(event) {
+  alert(event.toElement.pathname + '\n' + location.pathname);
+  if (event.toElement.pathname != location.pathname) {
+	  jumpToNewPage(event.toElement.href, true);
+	  return false;
+  }
+});
 	doAtReady();
 });
