@@ -24,18 +24,21 @@ function doAtReady() {
 function jumpToNewPage(href, ifscroll) {
   reg = new RegExp("<!--BEGIN_CONTENT-->(.|\\n)*<!--END_CONTENT-->", "gm");
   DISQUS=null;
+  NProgress.start();
   $.get(href, function(data){
 	$(".content").html(data.match(reg));
 	$("title").html(data.match(/<title>(.|\n)*<\/title>/gm)[0].slice(7,-8));
+	NProgress.done();
 	history.pushState(location.href, null, href);
 	doAtReady();
 	if (ifscroll) {
 	  $('body,html').animate({scrollTop:0},1000);
 	}
-    $("div.content a").click(function(event) {
-      alert(event.toElement.pathname + '\n' + location.pathname);
+    $("a").on("click", function(event) {
+	  //alert(event.toElement.pathname + '\n' + location.pathname);
       if (event.toElement.pathname != location.pathname) {
-  	      alert("jump -> " + location.pathname);
+  	      //alert("jump -> " + location.pathname);
+		  $("a").off("click");
 	      jumpToNewPage(event.toElement.href, true);
 	      return false;
       }
@@ -49,6 +52,7 @@ window.onpopstate = function(event) {
 };
 
 $(document).ready(function(){
+	NProgress.configure({ easing: 'ease', speed: 500 });
     $("#back-to-top").hide();
     $(function () {
     $(window).scroll(function(){
@@ -72,8 +76,8 @@ $(document).ready(function(){
         $("#back-to-comment").hide(); 
     } 
     });
-$("a").click(function(event) {
-  alert(event.toElement.pathname + '\n' + location.pathname);
+$("a").on("click", function(event) {
+  //alert(event.toElement.pathname + '\n' + location.pathname);
   if (event.toElement.pathname != location.pathname) {
 	  jumpToNewPage(event.toElement.href, true);
 	  return false;
