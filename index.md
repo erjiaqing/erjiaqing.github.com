@@ -12,9 +12,9 @@ title: 氢酱的代码们
 
 **联系方式**
 
-邮件：![image](./assets/themes/erjiaqing/use/mail_gs.png)
+`base64(mail) = Z3Vvc29uZzk3QGxpdmUuY29t`
 
-QQ：2399632404
+`md5(str(QQ)) = b19db90f2fe1b074eecac84e67a0397b`
 
 友情连接
 ========
