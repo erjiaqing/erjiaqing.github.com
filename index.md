@@ -25,7 +25,7 @@ title: 氢酱的代码们
 
 2016年 TPTYUUY 队:[EJQ](<https://ejq.me/>),ClearMind,shanest
 
-2017年 丝滑拿铁 队:[EJQ](<https://ejq.me/), [Sagitta](<http://www.cnblogs.com/sagitta/>), [WZJRJ28](<http://blog.csdn.net/u014258433/>)
+2017年 丝滑拿铁 队:[EJQ](<https://ejq.me/),[Sagitta](<http://www.cnblogs.com/sagitta/>),[WZJRJ28](<http://blog.csdn.net/u014258433/>)
 
 2016年仍在更新的友情链接
 ========================
