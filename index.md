@@ -25,15 +25,15 @@ title: 氢酱的代码们
 
 2016年 TPTYUUY 队:[EJQ](<https://ejq.me/>),ClearMind,shanest
 
-2017年 丝滑拿铁 队:[EJQ](<https://ejq.me/),[Sagitta](<http://www.cnblogs.com/sagitta/>),[WZJRJ28](<http://blog.csdn.net/u014258433/>)
+2017年 丝滑拿铁 队:[EJQ](<https://ejq.me/>), [Sagitta](<http://www.cnblogs.com/sagitta/>) ,[WZJRJ28](<http://blog.csdn.net/u014258433/>)
 
-2016年仍在更新的友情链接
+2017年仍在更新的友情链接
 ========================
 
 (长度降序无视大小写字典升序排列)
 
-[hzwer](<http://hzwer.com>)           | [Totoro97](<http://o-o-o-y.diandian.com/>) | [胜者为王](<http://jiruyi910387714.is-programmer.com/>) | [ZRY007的博客](<http://www.swzry.com/>)                 |
-|------------------------------------------------|---------------------------------------|--------------------------------------------|---------------------------------------------------------|
-| [Dr.Lib](<http://im.librazy.org>)            | [111qqz](<http://111qqz.com/>) | [DoveCCL](<https://c.ecl.me/>)    |  |
+[hzwer](<http://hzwer.com>)           | [胜者为王](<http://jiruyi910387714.is-programmer.com/>) | [ZRY007的博客](<http://www.swzry.com/>)                 |
+|------------------------------------------------|---------------------------------------|--------------------------------------------
+| [Dr.Lib](<http://im.librazy.org>)            | [111qqz](<http://111qqz.com/>) | [DoveCCL](<https://c.ecl.me/>)    |
 
 **有人愿意加到这个列表里面么？**
