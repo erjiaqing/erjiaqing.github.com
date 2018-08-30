@@ -25,7 +25,7 @@ $$O(n)$$|$$O(n \log n)$$|$$O(n \log n)$$
 
 <ruby>Code Forces<rt>膜拜红名大牛贺思睿</rt></ruby>191 E AC Code
 
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include <cstring>
 #include <cstdio>
@@ -95,5 +95,4 @@ int main()
 	//printf("%lld\n",L);
 	return 0;
 }
-{% endhighlight %}
-
+```

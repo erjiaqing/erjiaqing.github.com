@@ -15,7 +15,7 @@ category: note
 
 例题：POJ 2104 K-th Number（这明明是OI题好么？）
 
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include <cstdio>
 #include <cstring>
@@ -78,4 +78,4 @@ int main()
     }
     return 0;
 }
-{% endhighlight %}
+```

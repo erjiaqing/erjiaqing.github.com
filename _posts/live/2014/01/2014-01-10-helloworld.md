@@ -11,7 +11,7 @@ category: Live
 
 那……就以经典代码结束吧！
 
-{% highlight cpp %}
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -19,4 +19,4 @@ int main()
     cout<<"Helloworld\n";
     return 0;
 }
-{% endhighlight %}
+```

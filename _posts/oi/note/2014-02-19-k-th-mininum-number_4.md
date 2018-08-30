@@ -15,7 +15,7 @@ Question：给你一棵树，问树上$$i\rightarrow j$$的链上第$$k$$大的�
 
 <ruby>SPOJ COT<rt>**C**ount **O**n a **T**ree</rt></ruby> AC Code
 
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include <cstring>
 #include <cstdio>
@@ -118,5 +118,4 @@ int main()
 	}
 	return 0;
 }
-{% endhighlight %}
-
+```

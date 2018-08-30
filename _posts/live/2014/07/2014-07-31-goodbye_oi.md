@@ -19,7 +19,7 @@ category: Live
 
 作为高中时期这个上面的最后一篇文章，应该算是首尾呼应了……
 
-{% highlight cpp %}
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -27,4 +27,4 @@ int main()
     cout<<"Good bye, OI\n";
     return 0;
 }
-{% endhighlight %}
+```

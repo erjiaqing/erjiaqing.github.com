@@ -29,7 +29,7 @@ category: note
 
 BZOJ 1901+ZOJ 2112 AC-Code
 
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include <cstdio>
 #include <cstring>
@@ -129,4 +129,4 @@ int main()
     }
     return 0;
 }
-{% endhighlight %}
+```

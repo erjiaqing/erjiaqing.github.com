@@ -19,7 +19,7 @@ BZOJ 1069 [SCOI 2007]最大土地面积
 
 AC-Code（省略了模板部分）
 
-{% highlight cpp %}
+```cpp
 const int maxn=2005;
 Point c[maxn*2],d[maxn];
 int n,top;
@@ -82,4 +82,4 @@ int main()
     printf("%.3lf\n",solve());
     return 0;
 }
-{% endhighlight %}
+```

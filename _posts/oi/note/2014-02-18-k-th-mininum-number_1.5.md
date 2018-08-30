@@ -9,7 +9,7 @@ category: note
 
 例题：HDU 2665 K-th Number
 
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include <cstdio>
 #include <cstring>
@@ -87,4 +87,4 @@ int main()
         solve();
     return 0;
 }
-{% endhighlight %}
+```

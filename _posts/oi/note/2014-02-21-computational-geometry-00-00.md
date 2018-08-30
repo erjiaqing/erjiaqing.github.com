@@ -11,7 +11,7 @@ category: note
 
 有误请指出，谢谢
 
-{% highlight cpp %}
+```cpp
 //-- 必载库
 #include <iostream>
 #include <cstdio>
@@ -59,4 +59,4 @@ struct Line
 double dist(Point a,Point b){return sqrt(pow(a.x-b.x,2)+pow(a.y-b.y,2));}
 typedef Point Vector;
 //-- 完毕
-{% endhighlight %}
+```
