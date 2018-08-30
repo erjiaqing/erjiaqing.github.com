@@ -5807,7 +5807,7 @@ body {
  * Generated via Pygments and Jekyll, these are snippets of HTML, CSS, and JS.
  */
 .highlight {
-  display: none;
+  /* display: none; */
   /* hidden by default, until >480px */
   padding: 9px 14px;
   margin-bottom: 14px;
@@ -6520,7 +6520,7 @@ hr {
 }
 .docs-nav .container .navbar-brand {
   margin: 12px 0 0;
-  width: 120px;
+  width: 100px;
   padding: 0;
 }
 .docs-nav .container .navbar-brand img {
@@ -7117,3 +7117,10 @@ td.visible-print {
     display: none !important;
   }
 }
+
+/**
+:target{
+    padding-top: 70px;
+    margin-top: -70px;
+}
+*/
