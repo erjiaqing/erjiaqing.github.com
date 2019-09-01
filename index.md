@@ -10,22 +10,10 @@ title: 氢酱的代码们
 
 在[erjiaqing/my\_solutions](<https://github.com/erjiaqing/my_solutions>)里有我所有题目的AC代码（然而想不通有些人fork的意义）
 
-**联系方式**
-
-`base64(mail) = Z3Vvc29uZzk3QGxpdmUuY29t`
-
-`md5(str(QQ)) = b19db90f2fe1b074eecac84e67a0397b`
-
 友情连接
 ========
 
-[Subjam酱](<http://dailinsubjam.github.io/>)
-
-2015年 WHU\_FFT 队:[EJQ](<https://ejq.me/>),[Sagitta](<http://www.cnblogs.com/sagitta/>),[NKWBTB](<http://blog.csdn.net/nkwbtb>)
-
-2016年 TPTYUUY 队:[EJQ](<https://ejq.me/>),ClearMind,shanest
-
-2017年 丝滑拿铁 队:[EJQ](<https://ejq.me/>), [Sagitta](<http://www.cnblogs.com/sagitta/>) ,[WZJRJ28](<http://blog.csdn.net/u014258433/>)
+上古队友:[Subjam酱](<http://dailinsubjam.github.io/>), [Sagitta](<http://www.cnblogs.com/sagitta/>), [NKWBTB](<http://blog.csdn.net/nkwbtb>), [WZJRJ28](<http://blog.csdn.net/u014258433/>)
 
 2019年还能打开的友情链接
 ========================
