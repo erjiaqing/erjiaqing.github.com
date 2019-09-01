@@ -10,6 +10,13 @@ title: 氢酱的代码们
 
 在[erjiaqing/my\_solutions](<https://github.com/erjiaqing/my_solutions>)里有我所有题目的AC代码（然而想不通有些人fork的意义）
 
+算法周记
+========
+
+今年下半年，我一个人拍的[《氢酱算法周记》](https://c.ejq.me/categories/#AlgoWeekly-ref)正式开坑，我继续扮演菜鸡氢酱角色，我会用氢酱真实面目努力创造一个蒟蒻的形象
+
+2019年09月01日 / 第 000 期 : [Codeforces 1204E](https://c.ejq.me/2019/09/01/CF1204E/)
+
 友情连接
 ========
 
