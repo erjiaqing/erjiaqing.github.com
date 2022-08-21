@@ -22,11 +22,11 @@ title: 氢酱的代码们
 
 上古队友:[Subjam酱](<http://dailinsubjam.github.io/>), [Sagitta](<http://www.cnblogs.com/sagitta/>), [NKWBTB](<http://blog.csdn.net/nkwbtb>), [WZJRJ28](<http://blog.csdn.net/u014258433/>)
 
-2019年还能打开的友情链接
+2022年还能打开的友情链接
 ========================
 
-(xjb排的，没有顺序，不信看blame)
 
-[hzwer](<http://hzwer.com>)           | [胜者为王](<http://jiruyi910387714.is-programmer.com/>) | [ZRY007的博客](<http://www.swzry.com/>)                 | [Dr.Lib](<http://im.librazy.org>)            | [111qqz](<http://111qqz.com/>) |
+
+[hzwer](<http://hzwer.com>)           | [胜者为王](<http://jiruyi910387714.is-programmer.com/>) | [Dr.Lib](<http://im.librazy.org>)            | [111qqz](<http://111qqz.com/>) |
 
 **有人愿意加到这个列表里面么？**
